@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wraper{
+    border-style: double;
+    border-style: 1px;
+    margin: auto;
+    padding: 100px;
+    border-color: cadetblue;
+    display: flex;
+    flex-grow: 2;
+    flex-direction: column;
+        align-items: center;
+    width: 80%;
+    height: 100%;
+    
+
+}
+
+main{
+    border: 2px solid red;
+    flex-grow: 2;
+    height: 100%;
+    flex-grow: 2;
+}
+
+header{
+    border: 2px spolid black;
+    height: 100%;
+    flex-grow: 1;
+}
+
+footer{
+    border: 2px spolid aqua;
+    height: 100%;
+    flex-grow: 1;
+}
